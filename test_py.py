@@ -18,7 +18,7 @@ from keras.optimizers import Adam
 from keras.backend import clear_session
 import numpy
 
-#Train model function
+#Model_train function
 
 def train_model(neurons , model , epochs , test) : 
 	print("\n" , " *** Summary *** " , "\n", "Iteration  : ", test , "\n" , "   Number of Neurons : ", neurons , "\n" , "   Number of Epochs : ",  epochs)
