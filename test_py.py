@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1FhfboSKsQfYBboj5PJSqjT0JVcdbJGCw
 """
 
-# Import libraries
+#Import libraries
 
 import keras
 from keras.datasets import mnist
