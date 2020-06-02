@@ -88,5 +88,5 @@ msg = "success"
     
 s.sendmail( "1706208@kiit.ac.in","anuragp0010@gmail.com", msg)
     
-#termination of program
+#Termination of program
 s.quit()
