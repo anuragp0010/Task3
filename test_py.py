@@ -56,7 +56,7 @@ train_y = to_categorical(train_y)
 
 
 #Initialization
-neurons = 10
+neurons = 5
 accuracy = 0
 epochs = 1
 test = 1
