@@ -77,16 +77,5 @@ while int(accuracy) < 90 :
 	flag = 1
 
 
-import smtplib
-s = smtplib.SMTP('smtp.gmail.com', 587)
-s.starttls()
 
-s.login("1706208@kiit.ac.in", "anuragp0010")
-
-#Message for mail
-msg = "success"
-    
-s.sendmail( "1706208@kiit.ac.in","anuragp0010@gmail.com", msg)
-    
-#Termination of program
 s.quit()
